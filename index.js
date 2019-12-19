@@ -22,5 +22,6 @@ app.delete('/api/products/:id', products_controller.delete)
 
 
 
-app.listen(SERVER_PORT, () => { console.log(`SERVER listening on ${SERVER_PORT}`)
-})
+app.listen(SERVER_PORT, () => {
+    console.log(`Server listening on port ${SERVER_PORT}.`);
+  });
